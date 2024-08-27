@@ -1,0 +1,181 @@
+* {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+  background-color:  #2b2b2b;
+  width: 300px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  caret-color: #fbfcf8;
+  color: #fbfcf8;
+}
+
+input::placeholder {
+  font-size: 15px;
+  padding: 0 2px;
+}
+
+input.search:focus {
+  outline: #fbfcf8 solid 2px;
+}
+
+h4 {
+  color: #fbfcf8;
+  margin: 15px;
+}
+
+p {
+  color: #fbfcf8;
+  margin: 4px;
+  transform: translate(-50px, 0);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ig-display {
+  background-color: #000;
+  width: 325px;
+  height: 530px;
+}
+
+.icon-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-arrow-left,
+.fa-pen-to-square {
+  color: #fbfcf8;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.name-account {
+  color: #fbfcf8;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.fa-angle-down {
+  color: #fbfcf8;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.name-account:hover,
+.fa-arrow-left:hover,
+.fa-pen-to-square:hover,
+.fa-angle-down:hover {
+  cursor: pointer;
+}
+
+.fa-magnifying-glass {
+  color: #fff;
+}
+
+.notes {
+  display: flex;
+  justify-content: space-evenly;
+  transform: translate(-5px, 0);
+}
+
+.my-notes {
+  background-image: url(/img/my-person.jpg);
+  background-size: contain;
+}
+
+.notes-1 {
+  background-image: url(/img/person-1.jpg);
+  background-size: contain;
+
+}
+
+.notes-2 {
+  background-image: url(/img/person-2.jpg);
+  background-size: contain;
+}
+
+.notes-3 {
+  background-image: url(/img/person-3.jpg);
+  background-size: contain;
+}
+
+.my-notes,
+.notes-1,
+.notes-2,
+.notes-3 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fbfcf8;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.add-note,
+.new-note-1,
+.new-note-2,
+.new-note-3 {
+  background-color: #2b2b2b;
+  width: 50px;
+  height: 25px;
+  border-radius: 45px;
+  transform: translate(15px, -10px);
+  font-size: 11px;
+  color: #fbfcf89f;
+  text-align: center;
+  padding: 2px;
+}
+
+.my-notes:hover,
+.notes-1:hover,
+.notes-2:hover,
+.notes-3:hover,
+.add-note:hover,
+.new-note-1:hover,
+.new-note-2:hover,
+.new-note-3:hover {
+  cursor: pointer;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles:hover {
+  cursor: pointer;
+}
+
+.dm1,
+.dm2,
+.dm3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dm1:hover,
+.dm2:hover,
+.dm3:hover {
+  cursor: pointer;
+}
+
+.image-chat {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #fbfcf8;
+  margin: 5px;
+}
+
+.fa-camera {
+  color: #fbfcf8;
+  font-size: 25px;
+  margin: 10px;
+}
